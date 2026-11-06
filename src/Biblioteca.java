@@ -36,7 +36,7 @@ public class Biblioteca {
         }
     }
 
-    public void buscarAutor(String autor){
+    public void buscarPorAutor(String autor){
         System.out.println("Libro de \"" + autor + "\":");
         boolean encontrado = false;
         for(int i = 0; i < cantidad; i++){
